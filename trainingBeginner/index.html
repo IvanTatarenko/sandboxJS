@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>sanbox JS</title>
+    <!-- <script type="text/javascript" href="index.js"></script> -->
+  </head>
+  <body>
+    <script type="text/javascript">
+      // evil var
+      var dontUseVar = 777;
+      var dontUseVarPlease; 
+      dontUseVarPlease = "dont use var please";
+      let floatNumber = 7.77;
+      document.write(
+        "i dont use var, i use let and it is equal " + floatNumber
+        );
+      
+      // You are right or wrong?
+      let isTrue;
+      isTrue = true;
+      let isFolse = !isTrue;
+      document.write("<br>" + isTrue);
+      document.write("<br>" + isFolse);
+      
+    </script>
+  </body>
+</html>
